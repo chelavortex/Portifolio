@@ -1,0 +1,49 @@
+ * {
+    font-family:Montserrat;
+    box-sizing:border-box;
+
+ }
+
+body {
+    padding:1rem;
+    font: 100px;
+}
+
+h1 {
+
+    text-align:center;
+    
+}
+
+form {
+    display:flex;
+    flex-direction:column;
+    gap:.5rem;
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    width:100%;
+    padding:10px;
+    border:1px solid #8B0000;
+    font-size: 1.1rem;
+}
+
+button {
+    padding:10px;
+    border:none;
+    border-radius: 6px;
+    background-color:#A52A2A;
+    color:#ffff;
+    font-size:1.1rem;
+    cursor: pointer;
+
+}
